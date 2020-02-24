@@ -43,12 +43,12 @@
         </filter>
     </appender>
 
-    <root level="ERROR">
+    <root level="DEBUG">
         <appender-ref ref="console" />
         <appender-ref ref="file" />
         <appender-ref ref="error" />
     </root>
-    <logger name="org.mybatis" level="ERROR" />
+    <logger name="org.mybatis" level="DEBUG" />
     <logger name="org.springframework" level="ERROR" />
     <logger name="org.linlinjava.litemall.core" level="DEBUG" />
     <logger name="org.linlinjava.litemall.db" level="DEBUG" />
